@@ -1,0 +1,24 @@
+{
+  "app": "atalhos",
+  "atualizado": "2026-11-08",
+
+  "_como_usar": [
+    "Uma linha por aparelho, dentro de 'aparelhos'.",
+    "O codigo e o que a app mostra a cada pessoa (ecra Sobre, ou no aviso).",
+    "estado 'vitalicio'  -> sem prazo.",
+    "estado 'ate' + data -> autorizado ate essa data (formato 2026-12-31).",
+    "estado 'bloqueado'  -> deixa de poder usar.",
+    "Tirar a linha tem o mesmo efeito que bloquear.",
+    "A nota e so para o autor se lembrar de quem e: nada de nomes completos.",
+    "Esta lista e publica. Mudar aqui chega: a app apanha a alteracao sozinha."
+  ],
+
+  "_exemplos_apagar_depois": {
+    "ABCD-2345": { "estado": "vitalicio", "nota": "JR" },
+    "EFGH-6789": { "estado": "ate", "data": "2026-12-31", "nota": "primo" },
+    "JKLM-7890": { "estado": "bloqueado", "nota": "emprestado, acabou" }
+  },
+
+  "aparelhos": {
+  }
+}

@@ -20,7 +20,7 @@
   },
 
   "aparelhos": {
-     "MYYX-NBRD": { "estado": "vitalicio", "nota": "A71-J" },
+     "MYYX-NBRD": { "estado": "ate 2026-11-23", "nota": "A71-J" },
      "AWW6-8DT2": { "estado": "vitalicio", "nota": "Xiaomi-C" },
      "661858e351c6dcbb66c36a1a": { "estado": "vitalicio", "nota": "PC-J" },
      "96e3fdca2f9071072da4256f": { "estado": "vitalicio", "nota": "Xiaomi-S" },
